@@ -1,6 +1,6 @@
 let clickedId;
 console.log('loaded');
-fetch('http://localhost:4000/api/v1/posts')
+fetch('/api/v1/posts')
 .then( (data) => {
     console.log(data);
     return data.json()
